@@ -1,0 +1,112 @@
+#container{
+    height:100%;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 400px;
+    width: 100%;
+    background-image: url(header.jpg);
+    background-size: cover;
+
+}
+
+li{
+    margin-right: 20px;
+}
+
+ul{
+display: flex;
+
+}
+
+.guide{
+    text-align: center;
+}
+
+.login{
+    margin-left: 300px;
+}
+
+#menu{
+    text-align: center;
+}
+
+#products{
+    text-align: center;
+}
+
+#photo1{
+    border: 1px solid salmon;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+
+}
+
+#photo2{
+    border: 1px solid salmon;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    }
+
+
+.photo{
+    border: 1px solid lightseagreen;
+    height:100px;
+    width: 150px;
+    text-align: center;
+
+}
+
+#device{
+    text-align: center;
+}
+
+#bouton1{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+#bouton2{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+#features{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+#pc{
+    align-self: flex-end;
+}
+
+#baspage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
